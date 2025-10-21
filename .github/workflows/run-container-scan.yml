@@ -22,8 +22,8 @@ jobs:
         
       - name: Get Docker Image from Docker Hub
         run: |
-          docker pull docker.io/robotnic456/devsecops_taining:mario-game-1.0.0
-          docker save -o supermariolatestdockerimage.tar docker.io/robotnic456/devsecops_taining:mario-game-1.0.0
+          docker pull docker.io/robotnic456/devsecops_taining:mario-game-1
+          docker save -o supermariolatestdockerimage.tar docker.io/robotnic456/devsecops_taining:mario-game-1
      
       - name: Run Trivy vulnerability scanner in tarball mode
         uses: aquasecurity/trivy-action@master
