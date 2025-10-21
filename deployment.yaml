@@ -13,7 +13,7 @@ spec:
         app: supermariogame
     spec:
       containers:
-      - image: robotnic456/devsecops_training:mario-game-1
+      - image: robotnic456/devsecops_taining:mario-game-7
         name: supermariogame-container
         ports:
         - containerPort: 8080
